@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1, initial-scale=1, width=device-width"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- react bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Galada|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/8eda10df1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- wowjs -->
+    <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js"></script>
+    <!-- animatecss -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <!-- icons font mizz -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"
+    />
+
+    <!-- scroll spy feature -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- modal -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>alyssa cucunato</title>
+  </head>
+  <body data-spy="scroll" data-target="#main-navbar" data-offset="105">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    $("body").scrollspy({ target: "#main-navbar", offset: 105 });
+
+    // Smooth Scrolling
+    $("#main-navbar a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+
+    $("body").scrollspy({ target: "#bio-btn", offset: 105 });
+
+    $("#bio-btn a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+
+    $("body").scrollspy({ target: ".about-me", offset: 105 });
+
+    $(".about-me a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+
+    $("body").scrollspy({ target: ".skills", offset: 105 });
+
+    $(".skills a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+
+    $("body").scrollspy({ target: ".my-work", offset: 105 });
+
+    $(".my-work a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+  </script>
+</html>

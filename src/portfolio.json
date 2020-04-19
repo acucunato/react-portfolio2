@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "pooch quest",
+    "photo": "https://i.ibb.co/f8z8FS0/landingpage.png",
+    "deploy": "https://acucunato.github.io/pooch-quest/",
+    "github": "https://github.com/acucunato/pooch-quest",
+    "modalDesc": "Pooch Quest is an application that assists the user in finding their perfect dog. As soon as the user searches, Pooch Quest gives relevant information about their desired breed along with adoptable dogs in their area.",
+    "modalTech": "HTML, CSS, Materalize, Javascript, JQuery, API/AJAX Requests"
+  },
+  {
+    "id": 2,
+    "name": "eat-da-burger",
+    "photo": "https://i.ibb.co/vh41qnF/burgerlogger.png",
+    "deploy": "https://eatdaburger-acucunato.herokuapp.com/",
+    "github": "https://github.com/acucunato/eat-da-burger",
+    "modalDesc": "A burger logger application using MySQL, Node, Express, Handlebars and a homemade ORM. This application follows MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, Handlebars, Node.js, Express.js and MySQL Database"
+  },
+  {
+    "id": 3,
+    "name": "trip tips",
+    "photo": "https://i.ibb.co/dbYK4Hk/triptips.png",
+    "deploy": "https://grouptriptips.herokuapp.com/",
+    "github": "hhttps://github.com/Didier-D-crypto/Project-2-Full-Stack-App",
+    "modalDesc": "Trip Tips is a full-stack web application that assists the user in creating, viewing, and reviewing user-generated trip itineraries including itineraries for the most visited cities in the US. It utilizes the MVC paradigm and own server-side API, AJAX calls to get, pull and push data, Node.js for back-end, Express.js for routing, MySQL for saving data, and HTML, CSS and Bulma for a polished user interface.",
+    "modalTech": "HTML, CSS, Bulma, Javascript, jQuery, EventfulAPI, Node.js, Express.js, MySQL, Sequelize, various NPM packages"
+  },
+  {
+    "id": 4,
+    "name": "trivia quiz",
+    "photo": "https://i.ibb.co/v3cN5pr/hp-game.png",
+    "deploy": "https://acucunato.github.io/trivia-quiz/",
+    "github": "https://github.com/acucunato/trivia-quiz",
+    "modalDesc": "Harry Potter Trivia Quiz is an interactive multiple choice question quiz. The quiz is timer-based and stores high scores in client-side local storage.",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript"
+  },
+  {
+    "id": 5,
+    "name": "team profile generator",
+    "photo": "https://i.ibb.co/YpHwnnv/teamprofilegen.png",
+    "deploy": "",
+    "github": "https://github.com/acucunato/team-profile-generator",
+    "modalDesc": "This application is a Node CLI that takes in information about Software Engineering Team employees and generates an HTML webpage which displays summaries for each person. The application will be invoked with the following command: node app.js",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, Node, NPM Packages (inquirer)"
+  },
+  {
+    "id": 6,
+    "name": "weather dashboard",
+    "photo": "https://i.ibb.co/B6f4krF/weather-dashboard.png",
+    "deploy": "https://acucunato.github.io/weather-dashboard/",
+    "github": "https://github.com/acucunato/weather-dashboard",
+    "modalDesc": "A weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery using OpenWeather API.",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, API/AJAX Requests"
+  }
+]
