@@ -19,9 +19,8 @@ function NavBar() {
   }
 
   let style = {
-    backgroundColor: change ? "#bcbcbf" : " #d9dde0",
+    backgroundColor: change ? "#bcbcbf" : "#d9dde0",
     transition: "400ms ease",
-    height: "100px",
     borderBottom: "5px solid #f3cfd0",
     right: 0,
     left: 0,

@@ -1,10 +1,14 @@
 import React from "react";
-import pinksmoke from "../assets/img/pinksmoke.jpg";
 
 function Jumbotron() {
   return (
     <div class="card">
-      <img src={pinksmoke} class="card-img" alt="pinksmoke" height="600px" />
+      <img
+        src="https://i.ibb.co/SfHjP4H/pinksmoke.jpg"
+        class="card-img"
+        alt="pinksmoke"
+        height="600px"
+      />
       <div class="card-img-overlay">
         <br />
         <br />

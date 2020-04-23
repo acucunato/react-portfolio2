@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "name": "eat-da-burger",
-    "photo": "https://i.ibb.co/vh41qnF/burgerlogger.png",
-    "deploy": "https://eatdaburger-acucunato.herokuapp.com/",
-    "github": "https://github.com/acucunato/eat-da-burger",
-    "modalDesc": "A burger logger application using MySQL, Node, Express, Handlebars and a homemade ORM. This application follows MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.",
-    "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, Handlebars, Node.js, Express.js and MySQL Database"
+    "name": "react employee directory",
+    "photo": "https://i.ibb.co/xzyZJNx/Screen-Shot-2020-04-23-at-1-47-18-PM.png",
+    "deploy": "https://acucunato-emp-dir.herokuapp.com/",
+    "github": "https://github.com/acucunato/react-employee-directory",
+    "modalDesc": "An employee directory created with React.js utilizing filter and search options. This application's UI is broken up into components, manage component state, and respond to user events.",
+    "modalTech": "React.js, Javascript, Node.js, Babel, CSS, Bootstrap, RandomUserGenerator API"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "team profile generator",
     "photo": "https://i.ibb.co/YpHwnnv/teamprofilegen.png",
-    "deploy": "",
+    "deploy": "https://github.com/acucunato/team-profile-generator",
     "github": "https://github.com/acucunato/team-profile-generator",
     "modalDesc": "This application is a Node CLI that takes in information about Software Engineering Team employees and generates an HTML webpage which displays summaries for each person. The application will be invoked with the following command: node app.js",
     "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, Node, NPM Packages (inquirer)"
@@ -52,5 +52,32 @@
     "github": "https://github.com/acucunato/weather-dashboard",
     "modalDesc": "A weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery using OpenWeather API.",
     "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, API/AJAX Requests"
+  },
+  {
+    "id": 7,
+    "name": "pwa budget tracker",
+    "photo": "https://i.ibb.co/YWP66Vb/landing.png",
+    "deploy": "https://acucunato-pwa-budget-tracker.herokuapp.com/",
+    "github": "https://github.com/acucunato/budget-tracker",
+    "modalDesc": "A PWA Budget Tracker application to allow for offline access and functionality. This app utilizes Service Workers and Cache APIs to cache assets and API responses to ensure this app works without an internet connection. If offline the Budget Tracker will still function normally, then when an online connection is established, it makes api calls to update the database with info added while offline. This app is built using a Mongo database with a Mongoose schema and handle routes with Express.",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript, Node.js, Express, MongoDB, Mongoose, Robo 3T, Service Worker, IndexDB, Webmanifest"
+  },
+  {
+    "id": 8,
+    "name": "eat-da-burger",
+    "photo": "https://i.ibb.co/vh41qnF/burgerlogger.png",
+    "deploy": "https://eatdaburger-acucunato.herokuapp.com/",
+    "github": "https://github.com/acucunato/eat-da-burger",
+    "modalDesc": "A burger logger application using MySQL, Node, Express, Handlebars and a homemade ORM. This application follows MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, Handlebars, Node.js, Express.js and MySQL Database"
+  },
+  {
+    "id": 9,
+    "name": "employee tracker",
+    "photo": "https://i.ibb.co/Fgkkk75/Screen-Shot-2020-04-23-at-2-41-46-PM.png",
+    "deploy": "https://github.com/acucunato/employee-tracker",
+    "github": "https://github.com/acucunato/employee-tracker",
+    "modalDesc": "This application is a command-line application for managing a company's employees using node, inquirer, and MySQL. This application allows the user to add departments, roles, employees; view departments, roles, employees and update employee roles.",
+    "modalTech": "Javascript, Node.js, NPM Express, NPM Inquirer, MySQL Database"
   }
 ]
