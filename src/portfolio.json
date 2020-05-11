@@ -9,6 +9,15 @@
     "modalTech": "HTML, CSS, Materalize, Javascript, JQuery, API/AJAX Requests"
   },
   {
+    "id": 10,
+    "name": "majj",
+    "photo": "https://i.ibb.co/yhYX4NY/splashpage.png",
+    "deploy": "https://www.majj.app/",
+    "github": "https://github.com/jsmithxyz/majj",
+    "modalDesc": "MAJJ, a MERN stack application, serves the user fresh content from thousands of providers, presenting the ability to conveniently view and save articles for your reading pleasure. MAJJ is creating a more convenient user experience; producing one place to save and view articles from thousands of providers, stripping the burden of scouring the web yourself!",
+    "modalTech": "Reactjs, HTML/CSS, Reactjs Bootstrap, Material-UI, Javascript/JSX, Bing News Search API, Nodejs, MongoDB, and various NPM packages including: axios, express, mongoose, passport & animate.css"
+  },
+  {
     "id": 2,
     "name": "react employee directory",
     "photo": "https://i.ibb.co/xzyZJNx/Screen-Shot-2020-04-23-at-1-47-18-PM.png",
@@ -79,5 +88,14 @@
     "github": "https://github.com/acucunato/employee-tracker",
     "modalDesc": "This application is a command-line application for managing a company's employees using node, inquirer, and MySQL. This application allows the user to add departments, roles, employees; view departments, roles, employees and update employee roles.",
     "modalTech": "Javascript, Node.js, NPM Express, NPM Inquirer, MySQL Database"
+  },
+  {
+    "id": 11,
+    "name": "eExpress Note Taker",
+    "photo": "https://i.ibb.co/HpRgp6s/Screen-Shot-2020-05-11-at-2-39-39-PM.png",
+    "deploy": "https://acucunato-express-note-taker.herokuapp.com/",
+    "github": "https://github.com/acucunato/note-taker",
+    "modalDesc": "This application that is used to write, save, and delete notes. It uses an express backend and save and retrieve note data from a JSON file.",
+    "modalTech": "HTML, CSS, Bootstrap, Javascript, Nodejs, Express, and NPM Modules"
   }
 ]
