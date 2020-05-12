@@ -102,7 +102,7 @@
     "id": 12,
     "name": "work day scheduler",
     "photo": "https://i.ibb.co/9pSm3d4/work-day-scheduler.png",
-    "deploy": "https://alyssacucunato.com/work-day-scheduler/",
+    "deploy": "https://acucunato.github.io/work-day-scheduler/",
     "github": "https://github.com/acucunato/work-day-scheduler",
     "modalDesc": "A simple calendar application that allows the user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
     "modalTech": "HTML, CSS, Bootstrap, Javascript, JQuery, Momentjs API"
