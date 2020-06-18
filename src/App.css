@@ -3,6 +3,11 @@ body {
   letter-spacing: 1px;
   position: relative;
 }
+
+::selection {
+  color: #f3cfd0;
+  background-color: #ea6f7b;
+}
 .fade {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -143,7 +148,8 @@ a:hover {
 }
 
 .fa-arrow-down,
-.fa-download {
+.fa-download,
+.fa.fa-envelope {
   color: #ea6f7b;
 }
 
