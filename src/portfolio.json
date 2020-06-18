@@ -18,6 +18,15 @@
     "modalTech": "Reactjs, HTML/CSS, Reactjs Bootstrap, Material-UI, Javascript/JSX, Bing News Search API, Nodejs, MongoDB, and various NPM packages including: axios, express, mongoose, passport & animate.css"
   },
   {
+    "id": 11,
+    "name": "G&M Market",
+    "photo": "https://i.ibb.co/KKBZswy/Screen-Shot-2020-06-18-at-5-35-50-PM.png",
+    "deploy": "https://www.gandmmarket.com",
+    "github": "https://github.com/acucunato/gandmmarket",
+    "modalDesc": "A solo project created and designed for G&M Market in Glendora NJ. This application provides customers with an online menu, hours and contact information for G&M Market, a local deli & butcher shop.",
+    "modalTech": "Reactjs, Javascript, CSS, Bootstrap"
+  },
+  {
     "id": 2,
     "name": "react employee directory",
     "photo": "https://i.ibb.co/xzyZJNx/Screen-Shot-2020-04-23-at-1-47-18-PM.png",
@@ -88,15 +97,6 @@
     "github": "https://github.com/acucunato/employee-tracker",
     "modalDesc": "This application is a command-line application for managing a company's employees using node, inquirer, and MySQL. This application allows the user to add departments, roles, employees; view departments, roles, employees and update employee roles.",
     "modalTech": "Javascript, Node.js, NPM Express, NPM Inquirer, MySQL Database"
-  },
-  {
-    "id": 11,
-    "name": "Express Note Taker",
-    "photo": "https://i.ibb.co/HpRgp6s/Screen-Shot-2020-05-11-at-2-39-39-PM.png",
-    "deploy": "https://acucunato-express-note-taker.herokuapp.com/",
-    "github": "https://github.com/acucunato/note-taker",
-    "modalDesc": "This application that is used to write, save, and delete notes. It uses an express backend and save and retrieve note data from a JSON file.",
-    "modalTech": "HTML, CSS, Bootstrap, Javascript, Nodejs, Express, and NPM Modules"
   },
   {
     "id": 12,
